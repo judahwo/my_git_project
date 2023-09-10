@@ -36,3 +36,26 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/judahwo/my_git_project.git
  * [new branch]      master -> master
 branch 'master' set up to track 'origin/master'.
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git add .
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git commit -m "Added PowerShell Prompt Commands to text"
+[master 41086d1] Added PowerShell Prompt Commands to text
+ 1 file changed, 38 insertions(+), 1 deletion(-)
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 917 bytes | 917.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/judahwo/my_git_project.git
+   0464201..41086d1  master -> master
