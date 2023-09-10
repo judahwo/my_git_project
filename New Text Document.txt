@@ -1,1 +1,38 @@
-Add stuff later
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Marcus> cd Desktop
+PS C:\Users\Marcus\Desktop> mkdir "Share Folder"
+PS C:\Users\Marcus\Desktop> cd "Share Folder"
+PS C:\Users\Marcus\Desktop\Share Folder> mkdir my_git_project
+
+
+    Directory: C:\Users\Marcus\Desktop\Share Folder
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/10/2023  12:39 AM                my_git_project
+
+
+PS C:\Users\Marcus\Desktop\Share Folder> cd my_git_project
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git init
+Initialized empty Git repository in C:/Users/Marcus/Desktop/Share Folder/my_git_project/.git/
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git add .
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git commit -m "Initial commit"
+[master (root-commit) 0464201] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New Text Document.txt
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git remote add origin https://github.com/judahwo/my_git_project.git
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git checkout master
+Already on 'master'
+PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 240 bytes | 240.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/judahwo/my_git_project.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
