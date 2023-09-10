@@ -1,4 +1,2 @@
-<<<<<<< HEAD
-=======
 This is a great feature - marcus is the best
->>>>>>> master
+
