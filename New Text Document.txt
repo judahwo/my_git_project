@@ -16,7 +16,6 @@ Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 d-----         9/10/2023  12:39 AM                my_git_project
 
-
 PS C:\Users\Marcus\Desktop\Share Folder> cd my_git_project
 PS C:\Users\Marcus\Desktop\Share Folder\my_git_project> git init
 Initialized empty Git repository in C:/Users/Marcus/Desktop/Share Folder/my_git_project/.git/
